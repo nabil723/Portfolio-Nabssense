@@ -1,0 +1,588 @@
+.nav-item {
+    padding-left: 24px; padding-right: 24px; padding-top: 8px; padding-bottom: 8px; background: white; border-radius: 48px; justify-content: center; align-items: center; gap: 10px; display: flex;
+    text-align: center; color: #101111; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word;
+    transition: background-color 0.2s ease-out 0.2s, color 0.2s ease-out 0.2s;
+
+}
+.nav-item.active {
+    padding-left: 24px; padding-right: 24px; padding-top: 8px; padding-bottom: 8px; background: #2D30C8; border-radius: 48px; justify-content: center; align-items: center; gap: 10px; display: flex;
+    text-align: center; color: #2CC7C9; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word;
+    transition: background-color 0.2s ease-out 0.2s, color 0.2s ease-out 0.2s,
+
+
+}
+.nav-item:not(.active):hover {
+    padding-left: 24px; padding-right: 24px; padding-top: 8px; padding-bottom: 8px; background: #D7DDDD; border-radius: 48px; justify-content: center; align-items: center; gap: 10px; display: flex;
+    text-align: center; color: #101111; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word;
+    transition: background-color 0.2s ease-out 0.2s, color 0.2s ease-out 0.2s,
+}
+
+
+body{
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+}
+
+section {
+    opacity: 25%;
+    transform: translateY(100px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+// Finder
+color: rgba(255, 255, 255, 0.90);
+ font-size: 14px;
+ font-family: SF Pro Text;
+ font-weight: 600;
+ word-wrap: break-word
+---
+// File
+color: rgba(255, 255, 255, 0.90);
+ font-size: 14px;
+ font-family: SF Pro Text;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// Edit
+color: rgba(255, 255, 255, 0.90);
+ font-size: 14px;
+ font-family: SF Pro Text;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// View
+color: rgba(255, 255, 255, 0.90);
+ font-size: 14px;
+ font-family: SF Pro Text;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// Go
+color: rgba(255, 255, 255, 0.90);
+ font-size: 14px;
+ font-family: SF Pro Text;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// Window
+color: rgba(255, 255, 255, 0.90);
+ font-size: 14px;
+ font-family: SF Pro Text;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// Help
+color: rgba(255, 255, 255, 0.90);
+ font-size: 14px;
+ font-family: SF Pro Text;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// Mon Jun 22
+color: rgba(255, 255, 255, 0.90);
+ font-size: 14px;
+ font-family: SF Pro Text;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// 9:41 AM
+color: rgba(255, 255, 255, 0.90);
+ font-size: 14px;
+ font-family: SF Pro Text;
+ font-weight: 500;
+ word-wrap: break-word
+---
+// Google               
+color: #494C4F;
+ font-size: 12px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.20px;
+ word-wrap: break-word
+---
+// .
+color: white;
+ font-size: 12px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.20px;
+ word-wrap: break-word
+---
+// Google               
+color: #494C4F;
+ font-size: 12px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.20px;
+ word-wrap: break-word
+---
+// .
+color: #DEE1E6;
+ font-size: 12px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.20px;
+ word-wrap: break-word
+---
+// Google               
+color: #494C4F;
+ font-size: 12px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.20px;
+ word-wrap: break-word
+---
+// .
+color: #DEE1E6;
+ font-size: 12px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.20px;
+ word-wrap: break-word
+---
+// Google               
+color: #494C4F;
+ font-size: 12px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.20px;
+ word-wrap: break-word
+---
+// .
+color: #DEE1E6;
+ font-size: 12px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.20px;
+ word-wrap: break-word
+---
+// Google               
+color: #494C4F;
+ font-size: 12px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.20px;
+ word-wrap: break-word
+---
+// .
+color: #DEE1E6;
+ font-size: 12px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.20px;
+ word-wrap: break-word
+---
+// domain.com
+color: #202124;
+ font-size: 14px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.25px;
+ word-wrap: break-word
+---
+// /subdomain/
+color: #696A6C;
+ font-size: 14px;
+ font-family: Roboto;
+ font-weight: 400;
+ letter-spacing: 0.25px;
+ word-wrap: break-word
+---
+// News
+color: #3D4043;
+ font-size: 10px;
+ font-family: Roboto;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// Design
+color: #3D4043;
+ font-size: 10px;
+ font-family: Roboto;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// Benchmark
+color: #3D4043;
+ font-size: 10px;
+ font-family: Roboto;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// About Me
+color: #2CC7C9;
+ font-size: 24px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 36px;
+ word-wrap: break-word
+---
+// Service
+color: #101111;
+ font-size: 24px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 36px;
+ word-wrap: break-word
+---
+// Project
+color: #101111;
+ font-size: 24px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 36px;
+ word-wrap: break-word
+---
+// Contact
+color: #101111;
+ font-size: 24px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 36px;
+ word-wrap: break-word
+---
+// NABS
+color: #2CC7C9;
+ font-size: 32px;
+ font-family: Unbounded;
+ font-weight: 700;
+ word-wrap: break-word
+---
+// sense.
+color: #2D30C8;
+ font-size: 32px;
+ font-family: Unbounded;
+ font-weight: 700;
+ word-wrap: break-word
+---
+.heading1{color: #2D30C8;
+    font-size: 60px;
+    font-family: Montagu Slab;
+    font-weight: 700;
+    line-height: 90px;
+    word-wrap: break-word}
+
+---
+// nabssense.
+color: #2CC7C9;
+ font-size: 55px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 82.50px;
+ word-wrap: break-word
+---
+//  Let me help you to..
+color: #2D30C8;
+ font-size: 60px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 90px;
+ word-wrap: break-word
+---
+// make design product usefull incredible, usefull, &
+color: white;
+ font-size: 60px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 90px;
+ word-wrap: break-word
+---
+// Creative
+color: #101111;
+ font-size: 43px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 64.50px;
+ word-wrap: break-word
+---
+// Service
+color: #2D30C8;
+ font-size: 60px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 90px;
+ word-wrap: break-word
+---
+// User Interface
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// User Experience
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Asset Illustration
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Prototype Design
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Project
+color: #2D30C8;
+ font-size: 60px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 90px;
+ word-wrap: break-word
+---
+// UI Design
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Website Solusi Retail Indonesia
+color: #11124B;
+ font-size: 43px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 64.50px;
+ word-wrap: break-word
+---
+// March 2020
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// UI Design
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Mobile App UNIPOS
+color: #11124B;
+ font-size: 43px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 64.50px;
+ word-wrap: break-word
+---
+// September 2022 - April 2023
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// UI UX Design
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Website Fashion Campus
+color: #11124B;
+ font-size: 43px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 64.50px;
+ word-wrap: break-word
+---
+// March 2022
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// UI Design
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Website Landing Page Fifamarket
+color: #11124B;
+ font-size: 43px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 64.50px;
+ word-wrap: break-word
+---
+// March 2020
+color: #11124B;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Nabssense ~ UI Design
+color: white;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// ナブススペック ~ ユーザーインターフェースデザイン
+color: white;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Nabssense ~ UI Design
+color: white;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Contact
+color: #2D30C8;
+ font-size: 60px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 90px;
+ word-wrap: break-word
+---
+// Jika kamu tertarik untuk menggunakan layanan aku. dibawah ini kontak aku taruh kontak aku. Disimpan ya!
+color: #101111;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 48px;
+ word-wrap: break-word
+---
+// Whatsapp
+color: #101111;
+ font-size: 24px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 36px;
+ word-wrap: break-word
+---
+// 085155330033
+color: #8B8F8F;
+ font-size: 18px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 27px;
+ word-wrap: break-word
+---
+// Hubungi
+color: white;
+ font-size: 24px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 36px;
+ word-wrap: break-word
+---
+// Instagram
+color: #101111;
+ font-size: 24px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 36px;
+ word-wrap: break-word
+---
+// @nabil723
+color: #8B8F8F;
+ font-size: 18px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 27px;
+ word-wrap: break-word
+---
+// Hubungi
+color: white;
+ font-size: 24px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 36px;
+ word-wrap: break-word
+---
+// Email
+color: #101111;
+ font-size: 24px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 36px;
+ word-wrap: break-word
+---
+// nabilmusyaffa7@gmail.com
+color: #8B8F8F;
+ font-size: 18px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ line-height: 27px;
+ word-wrap: break-word
+---
+// Hubungi
+color: white;
+ font-size: 24px;
+ font-family: Clash Grotesk;
+ font-weight: 500;
+ line-height: 36px;
+ word-wrap: break-word
+---
+// Nabssense
+color: #2D30C8;
+ font-size: 60px;
+ font-family: Montagu Slab;
+ font-weight: 700;
+ line-height: 90px;
+ word-wrap: break-word
+---
+// Terimakasih udah mampir ke website aku. semoga kita bisa berkerjasama dalam membuat serta mengembangkan sesuatu di kemudian hari :)
+color: white;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// copyright2023©nabssense
+color: white;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ word-wrap: break-word
+---
+// Masuk Admin
+color: #2D30C8;
+ font-size: 32px;
+ font-family: Clash Grotesk;
+ font-weight: 400;
+ word-wrap: break-word
