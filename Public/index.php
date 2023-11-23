@@ -4,263 +4,291 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        <link href="/source/css/output.css" rel="stylesheet">
+        <link href="CSS/style-tailwind.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
     
     <body>
-    <div class="w-full" style="height: 838px; flex-direction: column; justify-content: flex-center; align-items: flex-center; display: flex">
-        <div style="height: 104px; width: 100%; padding-top: 32px; padding-bottom: 32px; flex-direction: column; justify-content: center; align-items: center; display: flex" >
-            <div style="justify-content: flex-center; align-items: flex-center; gap: 16px; display: inline-flex">
-                <div style="width: 40px; height: 40px; position: relative; background: #2CC7C9; border-radius: 16px"></div>
-                <div style="text-align: right"><span style="color: #2CC7C9; font-size: 32px; font-family: Unbounded; font-weight: 700; word-wrap: break-word">NABS</span><span style="color: #2D30C8; font-size: 32px; font-family: Unbounded; font-weight: 700; word-wrap: break-word">sense.</span></div>
+        <!-- All Content -->
+    <div class=" w-full bg-netral-200 justify-center align-middle flex flex-col items-center">
+        <!-- Navbar top -->     
+        <div class="w-full self-stretch justify-center align-middle inline-flex flex-col items-center gap-32 ">
+        <div class="w-full bg-netral-100 justify-center align-middle flex flex-col items-center py-[32px]" >
+            <div class="w-full justify-center align-middle inline-flex items-center gap-[16px]">
+                <div class="w-[40px] h-[40px] rounded-[16px] relative bg-secondary-base"></div>
+                <div class="text-right"><span class="text-primary-base text-[32px] font-bold font-body-grotesk" >NABS</span><span class="text-secondary-base text-[32px] font-family Unbounded font-bold break-word">sense.</span></div>
             </div>
         </div>
-        <div class="w-full" style="align-self: stretch; height: 5606px; padding-top: 72px; flex-direction: column; justify-content: flex-center; align-items: center; gap: 132px; display: flex">
-            <SECTION class="w-full" style="max-width: 2140px; height: 600px; padding-left: 200px; padding-right: 200px; flex-direction: column; justify-content: center; align-items: center; gap: 78px; display: flex" id="about" class="active">
-                <div style="align-self: stretch; justify-content: flex-center; align-items: center; gap: 30px; display: inline-flex">
-                    <div style="flex: 1 1 0"><span style="color: #2D30C8; font-size: 60px; font-family: Montagu Slab; font-weight: 700; line-height: 90px; word-wrap: break-word">Hai guys, I’m </span><span style="color: #2CC7C9; font-size: 55px; font-family: Montagu Slab; font-weight: 700; line-height: 82.50px; word-wrap: break-word">nabssense.</span><span style="color: #2D30C8; font-size: 60px; font-family: Montagu Slab; font-weight: 700; line-height: 90px; word-wrap: break-word"> Let me help you to..</span></div>
-                    <div style="height: 274px; padding-top: 10px; padding-left: 132px; padding-right: 132px; background: #CDCEF4; border-radius: 16px; overflow: hidden; justify-content: center; align-items: top; display: flex">
-                        <img style="max-width: 100%; height: auto;" src="images/man and woman working with laptop.png" />
+        <!-- All Content -->
+        
+            <!-- Section About Me -->
+            <SECTION class="max-w-[1920px] w-full flex-col justify-center items-center gap-[78px] px-[200px] flex" id="about" class="active">
+                <div class="self-stretch justify-center items-center gap-[30px] inline-flex">
+                    <div class="flex-1"><span class="text-secondary-base text-6xl font-display-montagu font-bold leading-[150%] break-word">Hai guys, I’m </span><span class="text-primary-base text-6xl font-display-montagu font-bold leading-[150%] break-word">nabssense.</span><span class="text-secondary-base text-6xl font-display-montagu font-bold leading-[150%] break-word"> Let me help you to..</span></div>
+                    <div class="h-[274px] p-[10px] px-[132px] bg-indigo-200 rounded-2xl overflow-hidden justify-center align-items top flex">
+                        <img class="w-full aspect-auto" src="images/man and woman working with laptop.png" />
                     </div>
                 </div>
-                <div style="align-self: stretch; justify-content: flex-center; align-items: center; gap: -1000px; display: inline-flex">
-                    <div style="width: 100%;height: 248px; position: relative; background: #2D30C8;  border-radius: 32px">
-                        <div style="width: 1011px; left: 72px; top: 24px; position: absolute; color: white; font-size: 60px; font-family: Montagu Slab; font-weight: 700; line-height: 90px; word-wrap: break-word">make design product usefull incredible, usefull, &</div>
-                        <div style="padding-left: 32px; padding-right: 32px; padding-top: 16px; padding-bottom: 16px; left: 778.39px; top: 122.58px; position: absolute; transform: rotate(-5.95deg); transform-origin: 0 0; background: #F57C38; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.16); border-radius: 16px; overflow: hidden; border: 8px white solid; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                            <div style="color: #101111; font-size: 43px; font-family: Montagu Slab; font-weight: 700; line-height: 64.50px; word-wrap: break-word">Creative</div>
+                <!-- Box Pertama -->
+                <div class="rounded-2xl h-[240px] self-stretch justify-center items-center flex">
+                    <!-- Content Kiri -->
+                    <div class="w-full bg-primary-base relative h-full rounded-3xl">
+                        <div class="w-full h-fit pl-12 pt-6 text-white text-6xl font-display-montagu font-bold leading-[150%] break-word">make design product usefull incredible, usefull, &</div>
+                        <!-- Card Orange -->
+                        <div class="px-8 py-4 rounded-2xl absolute left-[778.39px] top-[122.58px] overflow-hidden rotate-[-5.95deg] border-8 border-white text-white justify-center items-center gap-3 inline-flex shadow bg-amber-400">
+                            <div class="text-neutral-800 text-5xl font-display-montagu font-bold leading-[150%] break-word">Creative</div>
                         </div>
                     </div>
+                    <!-- Content Kanan -->
                     <a  href="#service" >
-                    <div style="height: 140px; padding-left: 38px; padding-right: 38px; padding-top: 30px; padding-bottom: 30px; background: #2CC7C9; border-radius: 32px; overflow: hidden; justify-content: center; align-items: center; display: flex">
-                        <div style="width: 80px; height: 80px; flex-direction: column; justify-content: flex-center; align-items: flex-center; display: flex">
-                            <div><i style="color: #ffffff; font-size: 72px;" class="ph-bold ph-arrow-down"></i></div>
-                        </div>
+                    <div class="w-[100px] h-[100px] px-10 py-8 bg-secondary-base rounded-3xl overflow-hidden justify-center items-center flex">
+                            <div><i class="ph-bold ph-arrow-down text-white text-7xl"></i></div>
                     </div>
                     </a>
+                    <!-- Tutup -->
                 </div>
             </SECTION>
-            
-            <SECTION style="height: 446px; max-width: 2140px; width: 100%;  padding-left: 200px; padding-right: 200px; flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 72px; display: flex" id="service">
-                <div style="align-self: stretch; color: #2D30C8; font-size: 60px; font-family: Montagu Slab; font-weight: 700; line-height: 90px; word-wrap: break-word">Service</div>
-                <div style="align-self: stretch; justify-content: flex-center; align-items: flex-center; gap: 32px; display: inline-flex">
-                    <div style=" width: 100%;  flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 16px; display: inline-flex">
-                        <div style=" width: 100%;  height: 228px; padding-left: 48px; padding-right: 48px; padding-top: 14px; padding-bottom: 14px; background: #CDCEF4; border-radius: 32px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="flex: 1 1 0; align-self: stretch; justify-content: center; align-items: center; display: inline-flex">
-                                <img style="width: 200px; height: 200px" src="images/brush.png" />
+            <!-- Section Service -->
+            <SECTION class=" px-[200px] rounded-3xl max-w-[1920px] w-full flex-col justify-center items-center gap-20 flex" id="service">
+                <div class="self-stretch text-secondary-base text-7xl font-display-montagu font-bold leading-12 break-word">Service</div>
+                <div class="self-stretch justify-center items-start gap-8 inline-flex">
+                    <div class=" w-full  flex-col justify-center items-center gap-4 inline-flex">
+                        <div class=" w-full  height: 228px; px-8 py-3 bg-indigo-200 rounded-2xl overflow-hidden justify-center items-center inline-flex">
+                            <div class="grow shrink basis-0 self-stretch justify-center items-center inline-flex">
+                                <img class="aspect-square" src="images/brush.png" />
                             </div>
                         </div>
-                        <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">User Interface</div>
+                        <div class="self-stretch text-secondary-700 text-3xl font-body-grotesk font-medium leading-10 break-word">User Interface</div>
                     </div>
-                    <div style=" width: 100%; flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 16px; display: inline-flex">
-                        <div style=" width: 100%;  height: 228px; padding-left: 48px; padding-right: 48px; padding-top: 14px; padding-bottom: 14px; background: #CDCEF4; border-radius: 32px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="flex: 1 1 0; align-self: stretch; justify-content: center; align-items: center; display: inline-flex">
-                                <img style="width: 200px; height: 200px" src="images/note and pencil.png" />
+                    <div class=" w-full flex-col justify-center items-center gap-4 inline-flex">
+                        <div class=" w-full  height: 228px; px-8 py-3 bg-indigo-200 rounded-2xl overflow-hidden justify-center items-center inline-flex">
+                            <div class="grow shrink basis-0 self-stretch justify-center items-center inline-flex">
+                                <img class="aspect-square" src="images/note and pencil.png" />
                             </div>
                         </div>
-                        <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">User Experience</div>
+                        <div class="self-stretch text-secondary-700 text-3xl font-body-grotesk font-medium leading-10 break-word">User Experience</div>
                     </div>
-                    <div style=" width: 100%;  flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 16px; display: inline-flex">
-                        <div style=" width: 100%;  height: 228px; padding-left: 48px; padding-right: 48px; padding-top: 14px; padding-bottom: 14px; background: #CDCEF4; border-radius: 32px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="flex: 1 1 0; align-self: stretch; justify-content: center; align-items: center; display: inline-flex">
-                                <img style="width: 200px; height: 200px" src="images/pencil cup.png" />
+                    <div class=" w-full  flex-col justify-center items-center gap-4 inline-flex">
+                        <div class=" w-full  height: 228px; px-8 py-3 bg-indigo-200 rounded-2xl overflow-hidden justify-center items-center inline-flex">
+                            <div class="grow shrink basis-0 self-stretch justify-center items-center inline-flex">
+                                <img class="aspect-square" src="images/pencil cup.png" />
                             </div>
                         </div>
-                        <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">Asset Illustration</div>
+                        <div class="self-stretch text-secondary-700 text-3xl font-body-grotesk font-medium leading-10 break-word">Asset Illustration</div>
                     </div>
-                    <div style=" width: 100%;  flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 16px; display: inline-flex">
-                        <div style=" width: 100%;  height: 228px; padding-left: 48px; padding-right: 48px; padding-top: 14px; padding-bottom: 14px; background: #CDCEF4; border-radius: 32px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
-                            <div style="flex: 1 1 0; align-self: stretch; justify-content: center; align-items: center; display: inline-flex">
-                                <img style="width: 200px; height: 200px" src="images/search mobile.png" />
+                    <div class=" w-full  flex-col justify-center items-center gap-4 inline-flex">
+                        <div class=" w-full  height: 228px; px-8 py-3 bg-indigo-200 rounded-2xl overflow-hidden justify-center items-center inline-flex">
+                            <div class="grow shrink basis-0 self-stretch justify-center items-center inline-flex">
+                                <img class="aspect-square" src="images/search mobile.png" />
                             </div>
                         </div>
-                        <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">Prototype Design</div>
+                        <div class="self-stretch text-secondary-700 text-3xl font-body-grotesk font-medium leading-10 break-word">Prototype Design</div>
                     </div>
                 </div>
             </SECTION>
-            <SECTION style="height: 2291px; max-width: 2140px; width: 100%; padding-left: 200px; padding-right: 200px; flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 72px; display: flex" id="project">
-                <div style="align-self: stretch; color: #2D30C8; font-size: 60px; font-family: Montagu Slab; font-weight: 700; line-height: 90px; word-wrap: break-word">Project</div>
-                <div style="align-self: stretch; height: 2137px; flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 48px; display: flex">
-                <a href="https://www.behance.net/gallery/161621927/Solusi-Retail-Indonesia-Landing-Page">
-                    <div style="align-self: stretch; padding: 32px; background: white; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.32); border-radius: 48px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 32px; display: flex">
-                        <div style="width: 720px; height: 434.25px; border-radius: 32px; overflow: hidden; justify-content: center; align-items: center; display: flex">
-                            <img style="width: 762px; height: 434px" src="images/SRI.png" />
+            <!-- Section Project -->
+            <SECTION class=" max-w-[1920px] px-[200px] w-full flex-col justify-start items-start gap-16 inline-flex" id="project">
+                <div class=" w-full self-stretch text-secondary-base text-7xl font-display-montagu font-bold leading-12 break-word">Project</div>
+                <!-- Content Project Card -->
+                <div class="w-full self-stretch flex-col justify-start items-center gap-12 flex">
+                    <!-- Project Card -->
+                    <a href="https://www.behance.net/gallery/161621927/Solusi-Retail-Indonesia-Landing-Page" class="w-full self-stretch p-12 bg-white rounded-3xl justify-start items-start gap-8 flex shadow-3xl">
+                        <!-- Content -->
+                        <!-- Left Content -->
+                        <div class="width-[720px] aspect-auto rounded-2xl justify-center items-center flex">
+                            <img class="width-[720px] aspect-auto" src="images/SRI.png" />
                         </div>
-                        <div style="flex: 1 1 0; align-self: stretch; flex-direction: column; justify-content: space-between; align-items: flex-center; display: inline-flex">
-                            <div style="align-self: stretch; height: 295.50px; flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 16px; display: flex">
-                                <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">UI Design</div>
-                                <div style="align-self: stretch; color: #11124B; font-size: 43px; font-family: Montagu Slab; font-weight: 700; line-height: 64.50px; word-wrap: break-word">Website Solusi Retail Indonesia</div>
-                                <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">March 2020</div>
+                        <!-- Right Content -->
+                        <div class="grow shrink basis-0 w-full self-stretch flex-col justify-between items-start inline-flex">
+                            
+                            <div class="w-full self-stretch flex-col justify-center items-start gap-4 flex">
+                                <div class="bg-primary-200 rounded-full px-4 text-secondary-700 text-3xl font-body-grotesk font-normal leading-10">UI Design</div>
+                                <div class="self-stretch text-secondary-700 text-5xl font-display-montagu font-bold leading-[150%]">Website Solusi Retail Indonesia</div>
+                                <div class="self-stretch text-secondary-700 text-3xl font-body-grotesk font-normal leading-10">March 2020</div>
                             </div>
-                            <div style="align-self: stretch; justify-content: flex-end; align-items: flex-end; gap: 10px; display: inline-flex">
-                                <div style="padding: 16px; background: #2D30C8; border-radius: 32px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 10px; display: flex">
-                                    <div style="width: 72px; height: 72px; position: relative">
-                                        <div><i style="color: #2CC7C9; font-size: 72px;" class="ph-bold ph-arrow-up-right"></i></div>
+                            
+                            <div class="w-full  self-stretch justify-end items-end gap-3 inline-flex">
+                                <div class="p-4 bg-secondary-base rounded-2xl justify-start items-start gap-3 flex">
+                                    <div class="aspect-square relative">
+                                        <div><i class="ph-bold ph-arrow-up-right text-primary-base text-7xl"></i></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.fifapay.unipos">
-                    <div style="align-self: stretch; padding: 32px; background: white; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.32); border-radius: 48px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 32px; display: flex">
-                        <div style="width: 720px; height: 434.25px; border-radius: 32px; overflow: hidden; justify-content: center; align-items: center; display: flex">
-                            <img style="width: 725px; height: 434px" src="images/unipos.png" />
+                    <!-- Project Card -->
+                    <a href="https://www.behance.net/gallery/161621927/Solusi-Retail-Indonesia-Landing-Page" class="w-full self-stretch p-12 bg-white rounded-3xl justify-start items-start gap-8 flex shadow-3xl">
+                        <!-- Content -->
+                        <!-- Left Content -->
+                        <div class="width-[720px] aspect-auto rounded-2xl justify-center items-center flex">
+                            <img class="width-[720px] aspect-auto" src="images/SRI.png" />
                         </div>
-                        <div style="flex: 1 1 0; align-self: stretch; flex-direction: column; justify-content: space-between; align-items: flex-center; display: inline-flex">
-                            <div style="align-self: stretch; height: 273.83px; flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 16px; display: flex">
-                                <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">UI Design</div>
-                                <div style="align-self: stretch; color: #11124B; font-size: 43px; font-family: Montagu Slab; font-weight: 700; line-height: 64.50px; word-wrap: break-word">Mobile App UNIPOS</div>
-                                <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">September 2022 - April 2023</div>
+                        <!-- Right Content -->
+                        <div class="grow shrink basis-0 w-full self-stretch flex-col justify-between items-start inline-flex">
+                            
+                            <div class="w-full self-stretch flex-col justify-center items-start gap-4 flex">
+                                <div class="bg-primary-200 px-4 rounded-full  text-secondary-700 text-3xl font-body-grotesk font-normal leading-10">UI Design</div>
+                                <div class="self-stretch text-secondary-700 text-5xl font-display-montagu font-bold leading-[150%]">Website Solusi Retail Indonesia</div>
+                                <div class="self-stretch text-secondary-700 text-3xl font-body-grotesk font-normal leading-10">March 2020</div>
                             </div>
-                            <div style="align-self: stretch; justify-content: flex-end; align-items: flex-end; gap: 10px; display: inline-flex">
-                                <div style="padding: 16px; background: #2D30C8; border-radius: 32px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 10px; display: flex">
-                                    <div style="width: 72px; height: 72px; position: relative">
-                                        <div><i style="color: #2CC7C9; font-size: 72px;" class="ph-bold ph-arrow-up-right"></i></div>
+                            
+                            <div class="w-full  self-stretch justify-end items-end gap-3 inline-flex">
+                                <div class="p-4 bg-secondary-base rounded-2xl justify-start items-start gap-3 flex">
+                                    <div class="aspect-square relative">
+                                        <div><i class="ph-bold ph-arrow-up-right text-primary-base text-7xl"></i></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     </a>
-                    <a href="https://www.behance.net/gallery/157865571/Fashion-Campus-Thrifthing-Online-Shop-Website-App">
-                    <div style="align-self: stretch; padding: 32px; background: white; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.32); border-radius: 48px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 32px; display: flex">
-                        <div style="width: 720px; height: 434.25px; border-radius: 32px; overflow: hidden; justify-content: center; align-items: center; display: flex">
-                            <img style="width: 720px; height: 434.25px" src="images/Fashion Campus.png" />
+                    <!-- Project Card -->
+                    <a href="https://www.behance.net/gallery/161621927/Solusi-Retail-Indonesia-Landing-Page" class="w-full self-stretch p-12 bg-white rounded-3xl justify-start items-start gap-8 flex shadow-3xl">
+                        <!-- Content -->
+                        <!-- Left Content -->
+                        <div class="width-[720px] aspect-auto rounded-2xl justify-center items-center flex">
+                            <img class="width-[720px] aspect-auto" src="images/SRI.png" />
                         </div>
-                        <div style="flex: 1 1 0; align-self: stretch; flex-direction: column; justify-content: space-between; align-items: flex-center; display: inline-flex">
-                            <div style="align-self: stretch; height: 295.50px; flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 16px; display: flex">
-                                <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">UI UX Design</div>
-                                <div style="align-self: stretch; color: #11124B; font-size: 43px; font-family: Montagu Slab; font-weight: 700; line-height: 64.50px; word-wrap: break-word">Website Fashion Campus</div>
-                                <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">March 2022</div>
+                        <!-- Right Content -->
+                        <div class="grow shrink basis-0 w-full self-stretch flex-col justify-between items-start inline-flex">
+                            
+                            <div class="w-full self-stretch flex-col justify-center items-start gap-4 flex">
+                                <div class="bg-primary-200 px-4 rounded-full  text-secondary-700 text-3xl font-body-grotesk font-normal leading-10">UI Design</div>
+                                <div class="self-stretch text-secondary-700 text-5xl font-display-montagu font-bold leading-[150%]">Website Solusi Retail Indonesia</div>
+                                <div class="self-stretch text-secondary-700 text-3xl font-body-grotesk font-normal leading-10">March 2020</div>
                             </div>
-                            <div style="align-self: stretch; justify-content: flex-end; align-items: flex-end; gap: 10px; display: inline-flex">
-                                <div style="padding: 16px; background: #2D30C8; border-radius: 32px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 10px; display: flex">
-                                    <div style="width: 72px; height: 72px; position: relative">
-                                        <div><i style="color: #2CC7C9; font-size: 72px;" class="ph-bold ph-arrow-up-right"></i></div>
+                            
+                            <div class="w-full  self-stretch justify-end items-end gap-3 inline-flex">
+                                <div class="p-4 bg-secondary-base rounded-2xl justify-start items-start gap-3 flex">
+                                    <div class="aspect-square relative">
+                                        <div><i class="ph-bold ph-arrow-up-right text-primary-base text-7xl"></i></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     </a>
-                    <a href="https://fifamarket.co.id/">
-                    <div style="align-self: stretch; padding: 32px; background: white; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.32); border-radius: 48px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 32px; display: flex">
-                        <div style="width: 720px; height: 434.25px; padding-top: 0.25px; border-radius: 32px; overflow: hidden; justify-content: center; align-items: center; display: flex">
-                            <img style="width: 918px; height: 434px" src="images/Fifamarket Website.png" />
-                        </div>
-                        <div style="flex: 1 1 0; height: 434.25px; flex-direction: column; justify-content: space-between; align-items: flex-center; display: inline-flex">
-                            <div style="align-self: stretch; height: 295.50px; flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 16px; display: flex">
-                                <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">UI Design</div>
-                                <div style="align-self: stretch; color: #11124B; font-size: 43px; font-family: Montagu Slab; font-weight: 700; line-height: 64.50px; word-wrap: break-word">Website Landing Page Fifamarket</div>
-                                <div style="align-self: stretch; color: #11124B; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">March 2020</div>
-                            </div>
-                            <div style="align-self: stretch; justify-content: flex-end; align-items: flex-end; gap: 10px; display: inline-flex">
-                                <div style="padding: 16px; background: #2D30C8; border-radius: 32px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 10px; display: flex">
-                                    <div style="width: 72px; height: 72px; position: relative">
-                                        <div><i style="color: #2CC7C9; font-size: 72px;" class="ph-bold ph-arrow-up-right"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </a>
+                    <button class="px-10 py-4 bg-amber-300 rounded-full overflow-hidden justify-start items-start gap-3 flex">
+                        <a href="#"><div class="text-netral-800 text-xl font-body-grotesk font-medium leading-8 break-word">Lihat Lebih Banyak</div></a>
+                    </button>
                 </div>
             </SECTION>
-            <div style="width: 100%; height: 136px; padding-left: 120px; padding-right: 120px; padding-top: 20px; padding-bottom: 20px; background: #2CC7C9; flex-direction: column; justify-content: center; align-items: center;  display: flex">
-                <div style=" width: 100%;   align-items: center; display: inline-flex">
-                    <div style="width: 100%; text-align: left; color: white; font-size: 32px; font-family: Clash Grotesk; font-weight: 500; line-height: 48px; word-wrap: break-word">Nabssense ~ UI Design</div>
-                    <div style="width: 100%; text-align: center; color: white; font-size: 32px; font-family: Clash Grotesk; font-weight: 500; line-height: 48px; word-wrap: break-word">ナブススペック ~ ユーザーインターフェースデザイン</div>
-                    <div style="width: 100%; text-align: right; color: white; font-size: 32px; font-family: Clash Grotesk; font-weight: 500; line-height: 48px; word-wrap: break-word">Nabssense ~ UI Design</div>
+            <!-- Bar Info -->
+            <div class="w-full px-[200px] py-5 bg-primary-base flex-col justify-between items-center  flex">
+                <div class=" w-full justify-between content-between items-center inline-flex">
+                    <div class="w-full text-left text-white text-3xl font-body-grotesk font-medium leading-10 break-word">Nabssense ~ UI Design</div>
+                    <div class="w-full text-center text-white text-3xl font-body-grotesk font-medium leading-10 break-word">ナブススペック ~ ユーザーインターフェースデザイン</div>
+                    <div class="w-full text-right text-white text-3xl font-body-grotesk font-medium leading-10 break-word">Nabssense ~ UI Design</div>
                 </div>
             </div>
-            <SECTION style="max-width: 2140px; width:100%; height: 758px; padding-left: 200px; padding-right: 200px; flex-direction: column; justify-content: flex-center; align-items: center; gap: 72px; display: flex" id="contact">
-                <div style="align-self: stretch; color: #2D30C8; font-size: 60px; font-family: Montagu Slab; font-weight: 700; line-height: 90px; word-wrap: break-word">Contact</div>
-                <div style="width: 100%; padding: 32px; background: white; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.32); border-radius: 48px; justify-content: flex-center; align-items: flex-center; gap: 32px; display: inline-flex">
-               <div style="padding-top: 24px; padding-bottom: 16px; padding-left: 132px; padding-right: 132px; background: #CDCEF4; border-radius: 32px; justify-content: flex-center; align-items: flex-center; gap: 10px; display: flex">
-                    <img style="width: 228px; height: 500px" src="images/man1.png" />
-                    </div>
-                    <div style="flex: 1 1 0; flex-direction: column; justify-content: flex-center; align-items: flex-center; gap: 32px; display: inline-flex">
-                        <div style="align-self: stretch; justify-content: flex-center; align-items: flex-center; gap: 48px; display: inline-flex">
-                            <div style="flex: 1 1 0; color: #101111; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; line-height: 48px; word-wrap: break-word">Jika kamu tertarik untuk menggunakan layanan aku. dibawah ini, aku taruh kontak untuk bisa dihubungi. Jangan lupa disimpan ya!</div>
+            <!-- Section Contact -->
+            <SECTION class="max-w-[1920px] w-full h-fit px-[200px] flex-col justify-start items-start gap-20 flex" id="contact">
+                <div class="self-stretch text-secondary-base text-7xl font-display-montagu font-bold leading-12 break-word">Contact</div>
+                    <div class="self-stretch w-full p-12 bg-netral-100 shadow-3xl rounded-3xl justify-start items-start gap-8 inline-flex">
+                        <div class="py-4 px-[132px] bg-indigo-200 rounded-2xl justify-start items-center gap-3 ">
+                            <img class="aspect-auto w-72" src="images/man1.png" />
                         </div>
-                        <div style="align-self: stretch; height: 372px; flex-direction: column; justify-content: center; align-items: flex-center; gap: 32px; display: flex">
-                            <div style="align-self: stretch; padding: 16px; background: white; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.16); border-radius: 32px; justify-content: flex-center; align-items: center; gap: 24px; display: inline-flex">
-                                <div style="width: 72px; height: 72px; position: relative">
-                                    <i style="color: #343330; font-size: 72px;" class="ph-fill ph-whatsapp-logo"></i>
-                                </div>
-                                <div style="flex: 1 1 0; flex-direction: column; justify-content: center; align-items: flex-center; display: inline-flex">
-                                    <div style="align-self: stretch; color: #101111; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word">Whatsapp</div>
-                                    <div style="align-self: stretch; color: #8B8F8F; font-size: 18px; font-family: Clash Grotesk; font-weight: 400; line-height: 27px; word-wrap: break-word">085155330033</div>
-                                </div>
-                                <div style="padding-left: 32px; padding-right: 32px; padding-top: 16px; padding-bottom: 16px; background: #2CC7C9; border-radius: 16px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 10px; display: flex">
-                                    <a href="https://wa.me/6285155330033/"><div style="color: white; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word">Hubungi</div></a>
-                                </div>
+                        <!-- Right Content -->
+                        <div class="w-full flex-col justify-center items-center gap-8 inline-flex">
+                            <div class="self-stretch justify-start items-center gap-12 inline-flex">
+                                <div class="w-full text-black text-3xl font-body-grotesk font-normal leading-10 break-word">Jika kamu tertarik untuk menggunakan layanan aku. dibawah ini, aku taruh kontak untuk bisa dihubungi. Jangan lupa disimpan ya!</div>
                             </div>
-                            <div style="align-self: stretch; padding: 16px; background: white; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.16); border-radius: 32px; justify-content: flex-center; align-items: center; gap: 24px; display: inline-flex">
-                                <div style="width: 72px; height: 72px; position: relative">
-                                    <i style="color: #343330; font-size: 72px;" class="ph-fill ph-instagram-logo"></i>
+                            <div class="self-stretch flex-col justify-start items-start gap-8 flex">
+                                <div class="self-stretch p-4 bg-netral-100 shadow-card-m rounded-2xl justify-start items-center gap-6 inline-flex">
+                                    <div class="width: 72px; height: 72px; position: relative">
+                                        <i  class="ph-fill ph-whatsapp-logo text-primary-base text-6xl"></i>
+                                    </div>
+                                    <div class="w-full flex-col justify-start items-start inline-flex">
+                                        <div class="self-stretch text-netral-800 text-xl font-body-grotesk font-medium leading-8 break-word">Whatsapp</div>
+                                        <div class="self-stretch color: #8B8F8F; font-size: 18px; font-body-grotesk font-normal leading-6 break-word">085155330033</div>
+                                    </div>
+                                    <button class="px-10 py-2 bg-secondary-base rounded-full overflow-hidden justify-center items-center gap-3 flex">
+                                        <a href="https://wa.me/6285155330033/"><div class="text-white text-xl font-body-grotesk font-medium leading-8 break-word">Hubungi</div></a>
+                                    </button>
                                 </div>
-                                <div style="flex: 1 1 0; flex-direction: column; justify-content: center; align-items: flex-center; display: inline-flex">
-                                    <div style="align-self: stretch; color: #101111; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word">Instagram</div>
-                                    <div style="align-self: stretch; color: #8B8F8F; font-size: 18px; font-family: Clash Grotesk; font-weight: 400; line-height: 27px; word-wrap: break-word">@nabil723</div>
+                            <div class="self-stretch p-4 bg-netral-100 shadow-card-m rounded-2xl justify-start items-center gap-6 inline-flex">
+                                <div class="width: 72px; height: 72px; position: relative">
+                                    <i  class="ph-fill ph-instagram-logo text-primary-base text-6xl"></i>
                                 </div>
-                                <div style="padding-left: 32px; padding-right: 32px; padding-top: 16px; padding-bottom: 16px; background: #2CC7C9; border-radius: 16px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 10px; display: flex">
-                                    <a href="https://instagram.com/nabil723/"><div style="color: white; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word">Hubungi</div></a>
+                                <div class="w-full flex-col justify-start items-start inline-flex">
+                                    <div class="self-stretch text-netral-800 text-xl font-body-grotesk font-medium leading-8 break-word">Instagram</div>
+                                    <div class="self-stretch color: #8B8F8F; font-size: 18px; font-body-grotesk font-normal leading-6 break-word">@nabil723</div>
                                 </div>
+                                <button class="px-10 py-2 bg-secondary-base rounded-full overflow-hidden justify-center items-center gap-3 flex">
+                                    <a href="https://instagram.com/nabil723/"><div class="text-white text-xl font-body-grotesk font-medium leading-8 break-word">Hubungi</div></a>
+                                </button>
                             </div>
-                            <div style="align-self: stretch; padding: 16px; background: white; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.16); border-radius: 32px; justify-content: flex-center; align-items: center; gap: 24px; display: inline-flex">
-                                <div style="width: 72px; height: 72px; position: relative">
-                                <i style="color: #343330; font-size: 72px;" class="ph-fill ph-envelope"></i>
+                            <div class="self-stretch p-4 bg-netral-100 shadow-card-m rounded-2xl justify-start items-center gap-6 inline-flex">
+                                <div class="width: 72px; height: 72px; position: relative">
+                                <i  class="ph-fill ph-envelope text-primary-base text-6xl"></i>
                                 </div>
-                                <div style="flex: 1 1 0; flex-direction: column; justify-content: center; align-items: flex-center; display: inline-flex">
-                                    <div style="align-self: stretch; color: #101111; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word">Email</div>
-                                    <div style="align-self: stretch; color: #8B8F8F; font-size: 18px; font-family: Clash Grotesk; font-weight: 400; line-height: 27px; word-wrap: break-word">nabilmusyaffa7@gmail.com</div>
+                                <div class="w-full flex-col justify-start items-start inline-flex">
+                                    <div class="self-stretch text-netral-800 text-xl font-body-grotesk font-medium leading-8 break-word">Email</div>
+                                    <div class="self-stretch color: #8B8F8F; font-size: 18px; font-body-grotesk font-normal leading-6 break-word">nabilmusyaffa7@gmail.com</div>
                                 </div>
-                                <div style="padding-left: 32px; padding-right: 32px; padding-top: 16px; padding-bottom: 16px; background: #2CC7C9; border-radius: 16px; overflow: hidden; justify-content: flex-center; align-items: flex-center; gap: 10px; display: flex">
-                                    <a href="https://wa.me/6285155330033/"><div style="color: white; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word">Hubungi</div></a>
-                                </div>
+                                <button class="px-10 py-2 bg-secondary-base rounded-full overflow-hidden justify-center items-center gap-3 flex">
+                                    <a href="https://wa.me/6285155330033/"><div class="text-white text-xl font-body-grotesk font-medium leading-8 break-word">Hubungi</div></a>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </SECTION>
-            <div style="width: 100%; height: 651px; padding-top: 116px; padding-bottom: 200px; padding-left: 200px; padding-right: 200px; background: #2CC7C9; flex-direction: column; justify-content: flex-center; align-items: center; gap: 72px; display: flex">
-                <div style="align-self: stretch; justify-content: center; align-items: flex-center; gap: 72px; display: inline-flex">
-                    <div style="flex: 1 1 0; color: #2D30C8; font-size: 60px; font-family: Montagu Slab; font-weight: 700; line-height: 90px; word-wrap: break-word">Nabssense</div>
-                    <div style="width: 80px; height: 80px; position: relative; background: #2D30C8; border-radius: 16px"></div>
+            <!-- Promo -->
+            <div class="max-w-[1920px] w-full h-fit px-[200px] flex-col justify-start items-start gap-20 flex" >
+                    <div class="self-stretch w-full p-12 bg-secondary-base shadow-3xl rounded-3xl justify-start items-start gap-12 inline-flex">
+                        <!-- Left Content -->
+                        <div class="w-full flex-col self-stretch justify-center items-start gap-6 inline-flex">
+                            <div class="self-stretch justify-center items-center gap-12 inline-flex">
+                                <div class="w-full text-netral-100 text-5xl font-display-montagu font-bold leading-[150%] break-word">Dapatkan Penawaran Menarik & Terbaik Sekarang!</div>
+                            </div>
+                            <button class="px-10 py-4 bg-amber-300 rounded-full overflow-hidden justify-start items-start gap-3 flex">
+                                <a href="https://wa.me/6285155330033/"><div class="text-netral-800 text-xl font-body-grotesk font-medium leading-8 break-word">Lihat Penawaran</div></a>
+                            </button>
+                        </div>  
+                        <!-- Right Content -->
+                        <div class="py-4 px-[132px] bg-indigo-200 rounded-2xl justify-start items-center gap-3 ">
+                            <img class="aspect-auto w-32" src="images/man1.png" />
+                        </div>
+                    </div>
+            </div>
+            <!-- Footer -->
+            <div class="w-full p-[200px] bg-primary-base flex-col justify-center items-center gap-20 flex">
+                <div class=" self-stretch justify-start items-start gap-20 inline-flex">
+                    <div class="aspect-square w-20 relative bg-secondary-base rounded-2xl"></div>
+                    <div class=" text-secondary-base text-7xl font-display-montagu font-bold leading-12 break-word">Nabssense</div>
                 </div>
-                <div style="align-self: stretch; color: white; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; word-wrap: break-word">Terimakasih udah mampir ke website aku. semoga kita bisa berkerjasama dalam membuat serta mengembangkan sesuatu di kemudian hari :)</div>
-                <div style="align-self: stretch; justify-content: center; align-items: flex-center; gap: 72px; display: inline-flex">
-                    <div style="text-align: center; color: white; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; word-wrap: break-word">copyright2023©nabssense</div>
-                    <div style="flex: 1 1 0; text-align: right; color: #219D9F; font-size: 32px; font-family: Clash Grotesk; font-weight: 400; word-wrap: break-word">Masuk Admin</div>
+                    <div class="self-stretch text-white text-center text-3xl font-body-grotesk font-normal break-word">Terimakasih udah mampir ke website aku. semoga kita bisa berkerjasama dalam membuat serta mengembangkan sesuatu di kemudian hari :)</div>
+                <div class="self-stretch justify-between items-center gap-20 inline-flex">
+                    <div class="text-center text-white text-3xl font-body-grotesk font-normal break-word">copyright2023©nabssense</div>
+                    <div class=" text-align: right; color: #219D9F; text-3xl font-body-grotesk font-normal break-word">Masuk Admin</div>
                 </div>
             </div>
-            
         </div>
-                <nav style="bottom : 0; position : fixed; width:100%; padding-left: 48px; padding-right: 48px; padding-top: 16px; padding-bottom: 16px; flex-direction: column; justify-content: end; align-items: center; display: flex; ">
-                    <div style="padding-left: 24px; padding-right: 24px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.32); border-radius: 72px; flex-direction: column; justify-content: flex-center; align-items: flex-center; display: flex">
-                        <div style="justify-content: flex-center; align-items: center; gap: 16px; display: inline-flex">
-                                <div style="justify-content: flex-center; align-items: center;display: inline-flex">
+        <!-- Navbar -->
+                <nav class="fixed w-full px-8 py-4 flex-col justify-end items-center flex bottom-0 ">
+                    <div class="bg-white px-6 py-4 flex-col rounded-[48px] justify-center items-center flex shadow-xl" >
+                        <div class="justify-center items-center gap-4 inline-flex">
+                                <div class="justify-center items-center inline-flex">
+                                    <!-- Left Content -->
                                     <div>
-                                        <div style="text-align: center; color: #2CC7C9; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word"><a href="#about" class="nav-item active">About</a></div>
+                                        <div class="text-center text-indigo text-xl font-body-grotesk font-medium leading-8 break-word"><a href="#about" class="nav-item active">About</a></div>
                                     </div>
                                     <div >
-                                        <div style="text-align: center; color: #101111; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word"><a href="#service" class="nav-item">Service</a></div>
+                                        <div class="text-center text-xl font-body-grotesk font-medium leading-8 break-word"><a href="#service" class="nav-item">Service</a></div>
                                     </div>
                                     <div>
-                                        <div style="text-align: center; color: #101111; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word"><a href="#project" class="nav-item">Project</a></div>
+                                        <div class="text-center text-xl font-body-grotesk font-medium leading-8 break-word"><a href="#project" class="nav-item">Project</a></div>
                                     </div>
                                     <div>
-                                        <div style="text-align: center; color: #101111; font-size: 24px; font-family: Clash Grotesk; font-weight: 500; line-height: 36px; word-wrap: break-word"><a href="#contact" class="nav-item">Contact</a></div>
+                                        <div class="text-center text-xl font-body-grotesk font-medium leading-8 break-word"><a href="#contact" class="nav-item">Contact</a></div>
                                     </div>
-                                </div>
-                                    <div style="height: 100%; justify-content: center; background: #D7DDDD; " class="nav-item">
-                                        <i style="color: #343330; font-size: 36px;" class="ph-fill ph-moon-stars"></i>
+                                    </div>
+                                    <!-- Right Content -->
+                                    <div class="h-full px-4 py-1 justify-center bg-gray-200 rounded-3xl" class="nav-item">
+                                        <i class="ph-fill ph-moon-stars text-gray-500 text-4xl"></i>
                                     </div>
                             </div>
                         </div>
